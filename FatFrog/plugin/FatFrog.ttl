@@ -27,30 +27,29 @@
 @prefix time: <http://lv2plug.in/ns/ext/time#>.
 @prefix units: <http://lv2plug.in/ns/extensions/units#> .
 
-<http://guitarix.sourceforge.net#me>
+<https://github.com/brummer10#me>
 	a foaf:Person ;
-	foaf:name "Guitarix team" ;
-	foaf:mbox <mailto:guitarix-developer@lists.sourceforge.net> ;
-	rdfs:seeAlso <http://guitarix.sourceforge.net> .
+	foaf:name "brummer10" ;
+	rdfs:seeAlso <https://github.com/brummer10> .
 
-<http://guitarix.sourceforge.net/plugins/FatFrog_>
+<https://github.com/brummer10/FatFrog>
 	a doap:Project ;
-	doap:maintainer <http://guitarix.sourceforge.net#me> ;
+	doap:maintainer <https://github.com/brummer10#me> ;
 	doap:name "FatFrog_" .
 
-<http://guitarix.sourceforge.net/plugins/FatFrog_#_FatFrog_>
+<https://github.com/brummer10/FatFrog#_FatFrog_>
     a lv2:Plugin ,
         lv2:AmplifierPlugin ;
-    doap:maintainer <http://guitarix.sourceforge.net#me> ;
+    doap:maintainer <https://github.com/brummer10#me> ;
     doap:name "FatFrog";
     doap:license <http://opensource.org/licenses/isc> ;
-    lv2:project <http://guitarix.sourceforge.net/plugins/FatFrog_> ;
+    lv2:project <https://github.com/brummer10/FatFrog> ;
     lv2:optionalFeature lv2:hardRTCapable ;
       
     lv2:minorVersion 35;
     lv2:microVersion 0;
 
-  guiext:ui <http://guitarix.sourceforge.net/plugins/FatFrog_gui#_FatFrog_>;
+  guiext:ui <https://github.com/brummer10/FatFroggui#_FatFrog_>;
     
 rdfs:comment """
 
@@ -138,7 +137,7 @@ rdfs:comment """
         lv2:maximum 1.0 ;
     ] .
 
-<http://guitarix.sourceforge.net/plugins/FatFrog_gui#_FatFrog_>
+<https://github.com/brummer10/FatFroggui#_FatFrog_>
   a guiext:X11UI;
   guiext:binary <FatFrog_ui.so>;
         lv2:extensionData guiext::idle ; 

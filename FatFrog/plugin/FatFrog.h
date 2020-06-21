@@ -24,8 +24,8 @@
 
 #include <lv2.h>
 
-#define PLUGIN_URI "http://guitarix.sourceforge.net/plugins/FatFrog_"
-#define PLUGIN_UI_URI "http://guitarix.sourceforge.net/plugins/FatFrog_gui#_FatFrog_"
+#define PLUGIN_URI "https://github.com/brummer10/FatFrog"
+#define PLUGIN_UI_URI "https://github.com/brummer10/FatFroggui#_FatFrog_"
 
 
 typedef enum
