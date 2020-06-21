@@ -1,6 +1,7 @@
 # FatFrog.lv2
 High Gain Amplifier
 
+![FatFrog](https://github.com/brummer10/FatFrog.lv2/raw/master/FatFrog.png)
 
 
 ## Features
